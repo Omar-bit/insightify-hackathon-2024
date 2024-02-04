@@ -995,18 +995,21 @@ footer .btn:hover {
 }
 
 .typing-demo {
-  width: 22ch;
+  width: 0;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
+  text-wrap: wrap;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
 }
 
 @keyframes typing {
   from {
     width: 0;
+  }
+  to {
+    width: auto;
   }
 }
 

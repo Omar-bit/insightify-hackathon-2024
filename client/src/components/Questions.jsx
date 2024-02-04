@@ -78,9 +78,9 @@ function Questions({ questions, setQuestions, currentState, setCurrentState }) {
             </div>
           ))}
         {isAnswerChecked && (
-          <div className='flex items-center gap-3 w-full '>
-            <FaLightbulb className='text-secondary text-2xl' />
-            <p>{questions[current].explanation}</p>
+          <div className='flex items-center gap-3 w-full  '>
+            <FaLightbulb className='text-secondary text-[50px]' />
+            <p className=''>{questions[current].explanation}</p>
           </div>
         )}
       </div>

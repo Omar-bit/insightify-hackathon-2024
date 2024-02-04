@@ -57,9 +57,7 @@ function Result({ questions, fileName }) {
       <h5 className='font-semibold text-md'>
         Here is a small summary that can help you{' '}
       </h5>
-      <div class='wrapper'>
-        {!loading && <p className='typing-demo'>{resume}</p>}
-      </div>
+      <div class=''>{!loading && <p className=''>{resume}</p>}</div>
       {loading && (
         <div className='flex flex-col gap-3'>
           <div className='bg-[#888] w-[50%] py-2 animate-pulse	'></div>
